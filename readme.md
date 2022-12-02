@@ -14,4 +14,18 @@
 3. 开启前端:`pnpm run dev`
 ### 3.注册邀请码的获取
 在服务端已经开启的状态,在浏览器地址栏输入`http://localhost/yqm`即可进入邀请码计算界面,该页面只共注册帐号登录进去查看效果用,具体算法可以到后端注册帐号接口的地方查看.
+### 3.实际运行效果图
+![](https://github.com/LunaDeer/SimpleChat/blob/img/images/Screenshot_20221202-131727_Via.jpg)
+![](https://github.com/LunaDeer/SimpleChat/blob/img/images/Screenshot_20221202-131811_Via.jpg)
+![](https://github.com/LunaDeer/SimpleChat/blob/img/images/Screenshot_20221202-131856_Via.jpg)
+![](https://github.com/LunaDeer/SimpleChat/blob/img/images/Snipaste_2022-12-01_16-44-20.jpg)
+![](https://github.com/LunaDeer/SimpleChat/blob/img/images/Snipaste_2022-12-01_16-44-36.jpg)
+![](https://github.com/LunaDeer/SimpleChat/blob/img/images/Snipaste_2022-12-02_13-17-41.jpg)
+![](https://github.com/LunaDeer/SimpleChat/blob/img/images/Snipaste_2022-12-02_13-18-03.jpg)
+![](https://github.com/LunaDeer/SimpleChat/blob/img/images/Snipaste_2022-12-02_13-18-03.jpg)
+![](https://github.com/LunaDeer/SimpleChat/blob/img/images/Snipaste_2022-12-02_13-18-08.jpg)
+![](https://github.com/LunaDeer/SimpleChat/blob/img/images/Snipaste_2022-12-02_13-19-03.jpg)
+![](https://github.com/LunaDeer/SimpleChat/blob/img/images/Snipaste_2022-12-02_13-20-28.jpg)
+
+
 
