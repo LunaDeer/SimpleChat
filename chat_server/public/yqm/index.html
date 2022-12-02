@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="./dayjs.min.js"></script>
+        <script src="./crypto-js.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        输入注册账号:
+        <input id = "ipt1" type="text" />
+        <br>
+        输出的邀请码:
+        <input id = "ipt2" type="text" />
+        <br>
+        <button onclick="calc()">计算邀请码</button>
+        
+        
+        <script>
+            let ipt1 = document.getElementById('ipt1');
+            let ipt2 = document.getElementById('ipt2');
+
+
+            function calc(){
+                let timeSalt =
+                dayjs().format('HH') +
+                Math.floor(dayjs().minute() / 5).toString();
+                let correctInvitationCode = CryptoJS.MD5(ipt1.value + timeSalt).toString().slice(0, 7);
+                ipt2.value = correctInvitationCode;
+            }
+              
+        </script>
+    </body>
+</html>
