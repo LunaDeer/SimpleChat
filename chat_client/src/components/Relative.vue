@@ -52,7 +52,7 @@ let {tipboxRef,
 
 
 function msgFun (){
-    router.replace({name:'Msg'});
+    router.push({name:'Msg'});
     setSendTarget(relativeInfo.value);
     // localStorage.setItem("recentChatRelatives",JSON.stringify([relativeInfo.value]));
 }

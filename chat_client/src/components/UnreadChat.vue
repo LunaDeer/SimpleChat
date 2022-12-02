@@ -41,7 +41,7 @@ function msgFun(relative){
 
     }
     setSendTarget(relative);
-    router.replace({name:'Msg'});
+    router.push({name:'Msg'});
 }
 
 
